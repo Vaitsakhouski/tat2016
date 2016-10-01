@@ -21,6 +21,6 @@ public class Calculator {
 		double razn=a-b;
 		double umnoj=a*b;
 		double del=a/b;
-		System.out.println("sum = " + sum + "\n" + "razn = " + razn + "\n" + "umnoj = " + umnoj + "\n" + "del = " + del + "\n");		
+		System.out.println(a + "+" + b + "=" + sum + "\n" + a  + "-" + b + "=" + razn + "\n" + a + "*" + b + "=" + umnoj + "\n" + a + "/" + b + "=" + del);		
 	}
 }
